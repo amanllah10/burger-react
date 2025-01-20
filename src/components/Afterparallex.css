@@ -1,0 +1,19 @@
+.afterpright{
+    flex: 50%;
+}
+.afterpleft{
+    flex: 50%;
+}
+
+@media(max-width:1100px){
+    .afterparallexcont{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media(max-width:700px){
+    .baapcont{
+        display: flex;
+        flex-direction: column;
+    }
+}

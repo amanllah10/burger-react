@@ -1,0 +1,34 @@
+.advertisecont{
+    margin-top: 10vh;
+}
+.advertiseleft{
+    flex: 50%;
+    border:1px solid black
+}
+.advertiseright{
+    flex: 50%;
+    margin-left:15px;
+    border:1px solid black
+}
+.advertiseleft img,
+.advertiseright img{
+    border: 1px solid black;
+    width: 70%;
+}
+
+@media(max-width:1000px){
+    .advertisecont{
+        display: flex;
+        flex-direction: column;
+    }
+    .advertiseright,
+    .advertiseleft{
+        margin: 10px;
+    }
+}
+@media(max-width:750px){
+    .advertiseright img,
+    .advertiseleft img{
+        width: 50%;
+    }
+}

@@ -1,0 +1,9 @@
+@media(max-width:1100px){
+    .navright{
+        display: none;
+    }
+    .navimg{
+        width: 30%;
+        margin: auto;
+    }
+}

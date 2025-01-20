@@ -1,0 +1,17 @@
+.leftmainupper img{
+    width: 100%;
+    height: 90vh;
+}
+.leftmainupper{
+    flex: 70%;
+}
+.rightmainupper{
+    flex: 30%;
+}
+
+
+@media(max-width:1200px){
+    .rightmainupper{
+        display: none;
+    }
+}

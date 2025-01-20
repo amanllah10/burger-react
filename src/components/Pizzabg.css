@@ -1,0 +1,12 @@
+.pizzabg{
+    background: url(reviews.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+
+@media(max-width:1000px){
+    .pizzacont p{
+        width: 80%;
+    }
+}

@@ -1,0 +1,13 @@
+.footerupperchild{
+    background: url(banner-1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+}
+
+@media(max-width:800px){
+    .h12{
+        font-size: 30px;
+    }
+}
